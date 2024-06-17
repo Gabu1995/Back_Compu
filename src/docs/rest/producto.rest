@@ -1,12 +1,16 @@
 ### Listar productos 
 GET http://localhost:3000/producto
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsIjoiZ3VhdGl0YUBnb2t1LmNvbSIsImlkIjoxLCJpYXQiOjE3MTg1ODk1OTIsImV4cCI6MTcxODU5MzE5Mn0.sZL-tPkJ3iGRryI30qsmAwGF_CaxPwwVUlqlVZ-Zyu4
 
 ### Crear producto 
 POST http://localhost:3000/producto 
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsIjoiZ3VhdGl0YUBnb2t1LmNvbSIsImlkIjoxLCJpYXQiOjE3MTg1ODk1OTIsImV4cCI6MTcxODU5MzE5Mn0.sZL-tPkJ3iGRryI30qsmAwGF_CaxPwwVUlqlVZ-Zyu4
+
 
 {
-"nombre": "Procesador", 
+"nombre": "Procesador",
+"descripcion": "asdasd", 
 "precio": "250", 
 "stock":20, 
 "categoriaId":3

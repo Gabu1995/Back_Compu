@@ -14,7 +14,7 @@ Content-Type: application/json
 
 {
     "name":"prueba",
-    "mail":"admin@gmail.com",
+    "mail":"guatita@goku.com",
     "password":"123456"
 }
 
